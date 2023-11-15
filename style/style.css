@@ -13,7 +13,7 @@
     background-image: url('../media/Rectangle.svg');
     display: flex;
     flex-direction: column;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
     /* flex-wrap: wrap; */
     background-size: 100%;
@@ -120,6 +120,8 @@
 
 .arena {
     display: grid;
+    justify-content: center;
+    justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     max-width: 58%;
     /* display: flex;
@@ -232,6 +234,8 @@
 
 .div-bilding-contayner {
     display: grid;
+    justify-content: center;
+    justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
     /* display: flex;
     justify-content: space-between; */
@@ -276,6 +280,8 @@ margin: 0 auto;
 /* ------------------------------ */
 .div_contacts_container {
     display: grid;
+    justify-content: center;
+    justify-items: center;
     grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
     /* display: flex;
     justify-content: space-between; */
